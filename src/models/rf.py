@@ -10,9 +10,9 @@ def build_model(preprocessor):
 
 
 param_grid = {
-    "model__n_estimators": [200, 500],
-    "model__max_depth": [None, 10, 20],
-    "model__min_samples_split": [2, 5],
-    "model__min_samples_leaf": [1, 2],
-    "model__max_features": ["sqrt", "log2"],
+    "model__n_estimators": [100],
+    "model__max_depth": [None, 10],
+    "model__min_samples_split": [2],
+    "model__min_samples_leaf": [1],
+    "model__max_features": ["sqrt"],
 }
